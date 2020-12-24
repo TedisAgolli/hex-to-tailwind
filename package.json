@@ -1,17 +1,17 @@
 {
-  "name": "hex-to-tailwind",
-  "version": "1.0.0",
-  "description": "Convert hex to Tailwind presets",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "hex",
-    "tailwind",
-    "color",
-    "convert"
-  ],
-  "author": "Tedis Agolli <tedis@hey.com> (https://iamted.is)",
-  "license": "ISC"
+    "name": "hex-to-tailwind",
+    "version": "1.0.1",
+    "description": "Convert hex to Tailwind presets",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "hex",
+        "tailwind",
+        "color",
+        "convert"
+    ],
+    "author": "Tedis Agolli <tedis@hey.com> (https://iamted.is)",
+    "license": "ISC"
 }
