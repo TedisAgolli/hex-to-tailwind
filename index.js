@@ -71,5 +71,10 @@ module.exports = (hexInput) => {
     }))
     .sort((a, b) => a.deltaE - b.deltaE);
   const closest = comparedColors[0];
-  return { tailwind: `${closest.main}-${closest.sub}`, deltaE: closest.deltaE };
+
+  return {
+    tailwind: `${closest.main}-${closest.sub}`,
+    tailwindHex: closest.hex,
+    deltaE: closest.deltaE,
+  };
 };
